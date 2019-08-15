@@ -1,0 +1,22 @@
+.imprint {
+    max-width: 768px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 12rem 4rem;
+}
+
+.imprint-back {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    color: $primary;
+    font-size: 26px;
+
+    &:hover {
+        color: $primaryDark;
+    }
+}
+
+.imprint-top-back {
+    top: 10px;
+}

@@ -1,0 +1,37 @@
+.newsletter {
+    input {
+        border: 0;
+        outline: none;
+        background: transparent;
+        padding: 2rem 12rem;
+        font-size: 1.5em;
+        border-bottom: 1px solid $secondaryLight;;
+        color: #fff;
+        margin-bottom: 1.5em;
+        text-align: center;
+
+        &::placeholder {
+            color: $secondaryLight;
+        }
+    }
+
+    .newsletter-text {
+        font-size: 0.9em;
+        max-width: 320px;
+        margin: 0 auto;
+        color: $secondaryLight;
+    }
+
+    .newsletter-button {
+        display: block;
+        margin: 0 auto 2rem;
+        padding: 25px 75px;
+        border: 0;
+        outline: none;
+        background-color: $secondaryDark;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
