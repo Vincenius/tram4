@@ -37,6 +37,7 @@
     }
 
     .header-image,
+    .header-image-preview,
     .overlay-webgl,
     .overlay-noise, /* index 2 */
     .overlay-fade,
@@ -52,7 +53,15 @@
         background-image: url('/dist/images/Heading.jpg');
         background-size: cover;
         background-position: top center;
+        z-index: 1;
+    }
+
+    .header-image-preview {
+        background-image: url('/dist/images/Heading-preview.jpg');
+        background-size: cover;
+        background-position: top center;
         z-index: 0;
+        filter: blur(5px);
     }
 
     .overlay-webgl {
