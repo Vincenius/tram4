@@ -6,7 +6,7 @@
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/Vincenius/tram4"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
