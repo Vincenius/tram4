@@ -55,7 +55,7 @@ table {
 @media screen and (max-width: 768px) {
     table tr td {
         &:nth-child(1) {
-            min-width: 65px;
+            min-width: 100px;
             font-weight: bold;
             text-align: left;
         }

@@ -138,7 +138,7 @@
             right: 10px;
             top: 10px;
         }
-        
+
         a {
             color: $primaryLight;
             font-size: 36px;
@@ -204,7 +204,11 @@
         left: 50%;
         margin-left: -14px;
         z-index: 2;
-        
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
         span {
             display: block;
             margin: 6px auto;
@@ -222,7 +226,7 @@
             animation-name: scroll;
         }
     }
-    
+
     @-webkit-keyframes scroll {
         0% {
             opacity: 1;
@@ -235,7 +239,7 @@
             transform: translateY(12px);
         }
     }
-    
+
     @keyframes scroll {
         0% {
             opacity: 1;
