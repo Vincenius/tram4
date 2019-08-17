@@ -21,7 +21,7 @@
 
     .header-text {
         position: absolute;
-        bottom: 100px;
+        bottom: 25px;
         width: 800px;
         left: 50%;
         transform: translateX(-50%);
@@ -157,7 +157,6 @@
         }
     }
 
-
     /* ----------- NeonFont ----------- */
     .neon {
         -webkit-animation: neon 1.5s ease-in-out infinite alternate;
@@ -193,7 +192,7 @@
         }
     }
 
-    /* Scroll hint */
+    /* Scroll hint
     .mouse {
         display: block;
         margin: 0 auto;
@@ -256,5 +255,5 @@
             -ms-transform: translateY(12px);
             transform: translateY(12px);
         }
-    }
+    } */
 }
