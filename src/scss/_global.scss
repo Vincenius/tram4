@@ -27,7 +27,7 @@ a {
     transition: 0.1s linear;
 
     &:hover {
-        color: darken($primary, 10%);
+        color: $primary;
     }
 }
 
@@ -49,9 +49,9 @@ h2 {
 
 h2 {
     font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
     font-size: 4rem;
     font-weight: 300;
-    text-transform: lowercase;
 
     @media screen and (max-width: 600px) {
         font-size: 1em;
@@ -79,7 +79,7 @@ h2 {
     }
 
     &:hover {
-        background-color: darken($primaryDark, 10%);
+        background-color: $primary;
     }
 }
 
@@ -95,7 +95,7 @@ section {
         color: $primaryDark;
 
         &:hover {
-        color: darken($primaryDark, 20%);
+            color: darken($primaryDark, 20%);
         }
     }
 
