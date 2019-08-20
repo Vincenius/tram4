@@ -1,22 +1,12 @@
-.imprint {
-    max-width: 768px;
+#privacy {
     text-align: left;
-    margin: 0 auto;
-    padding: 12rem 4rem;
-}
+    padding: 0 30px;
 
-.imprint-back {
-    position: relative;
-    float: left;
-    padding-left: 10px;
-    color: $primary;
-    font-size: 26px;
-
-    &:hover {
+    a {
         color: $primary;
-    }
-}
 
-.imprint-top-back {
-    top: 10px;
+        &:hover {
+            color: darken($primary, 20%);
+        }
+    }
 }
