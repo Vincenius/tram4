@@ -27,7 +27,7 @@ a {
     transition: 0.1s linear;
 
     &:hover {
-        color: darken($primary, 10%);
+        color: $primary;
     }
 }
 
@@ -49,9 +49,9 @@ h2 {
 
 h2 {
     font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
     font-size: 4rem;
     font-weight: 300;
-    text-transform: lowercase;
 
     @media screen and (max-width: 600px) {
         font-size: 1em;
@@ -79,7 +79,7 @@ h2 {
     }
 
     &:hover {
-        background-color: darken($primaryDark, 10%);
+        background-color: $primary;
     }
 }
 
@@ -92,10 +92,10 @@ section {
     }
 
     a {
-        color: $primaryDark;
+        color: #fff;
 
         &:hover {
-        color: darken($primaryDark, 20%);
+            color: $primary;
         }
     }
 
@@ -107,4 +107,10 @@ section {
 .sunset {
     background-color: #000;
     background-image: linear-gradient(180deg, #000 0%, #0b486b 85%, #f56217 99%, #000 100%)
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }

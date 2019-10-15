@@ -13,7 +13,7 @@ table {
             padding: 15px;
 
             &:nth-child(1) {
-                min-width: 100px;
+                min-width: 120px;
                 font-weight: bold;
                 text-align: left;
             }
@@ -55,7 +55,7 @@ table {
 @media screen and (max-width: 768px) {
     table tr td {
         &:nth-child(1) {
-            min-width: 100px;
+            min-width: 120px;
             font-weight: bold;
             text-align: left;
         }
