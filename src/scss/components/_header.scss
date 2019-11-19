@@ -146,6 +146,16 @@
             color: #fff;
             font-size: 36px;
             margin: 0 10px;
+            text-decoration: none;
+
+            span {
+                clip: rect(1px, 1px, 1px, 1px);
+                position: absolute !important;
+                height: 1px;
+                width: 1px;
+                overflow: hidden;
+                word-wrap: normal !important;
+            }
 
             @media screen and (max-width: 600px) {
                 font-size: 20px;
