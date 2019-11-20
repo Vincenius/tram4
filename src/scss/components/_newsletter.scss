@@ -9,10 +9,20 @@
         color: #fff;
         margin-bottom: 1.5em;
         text-align: center;
+        width: 100%;
+        margin-right: 20px;
 
         &::placeholder {
             color: $secondaryLight;
         }
+    }
+
+    .newsletter-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        background:rgba(0,0,0,0.2);
     }
 
     .newsletter-text {
@@ -24,8 +34,8 @@
 
     .newsletter-button {
         display: block;
-        margin: 0 auto 2rem;
-        padding: 25px 75px;
+        margin: 0 0 2rem;
+        padding: 18px 75px;
         border: 0;
         outline: none;
         background-color: $secondaryDark;

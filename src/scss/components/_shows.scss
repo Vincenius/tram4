@@ -5,7 +5,7 @@ table {
         display: flex;
         justify-content: space-between;
 
-        &:nth-child(2n) {
+        &:nth-child(2n + 1) {
             background-color: rgba(0,0,0,0.2);
         }
 
