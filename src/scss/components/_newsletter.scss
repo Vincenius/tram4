@@ -15,6 +15,10 @@
         &::placeholder {
             color: $secondaryLight;
         }
+
+        @media screen and (max-width: 850px) {
+            padding: 2rem 1rem;
+        }
     }
 
     .newsletter-card {
@@ -23,6 +27,10 @@
         align-items: center;
         padding: 30px;
         background:rgba(0,0,0,0.2);
+
+        @media screen and (max-width: 850px) {
+            flex-direction: column;
+        }
     }
 
     .newsletter-text {
