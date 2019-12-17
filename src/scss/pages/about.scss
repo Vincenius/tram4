@@ -1,5 +1,5 @@
 .bio {
-    font-size: 28px;
+    font-size: 22px;
     text-align: left;
     background: rgba(0,0,0,0.2);
     padding: 40px;
@@ -9,7 +9,13 @@
         padding: 20px;
     }
 
-    h2 {
+    h1 {
         text-align: center;
     }
+}
+
+.contact {
+    text-align: left;
+    font-size: 16px;
+    margin: 75px auto 0;
 }
