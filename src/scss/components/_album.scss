@@ -105,13 +105,9 @@
 @media screen and (max-width: 768px) {
     .album {
         .album-preview {
-            flex-direction: column;
-
             .album-left {
                 width: auto;
-            }
-            .album-right {
-                display: none;
+                margin: 0 20px;
             }
         }
     }
