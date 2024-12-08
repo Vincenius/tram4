@@ -50,6 +50,6 @@
   "homepage": "https://tram4.de",
   "main": ".eslintrc.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
